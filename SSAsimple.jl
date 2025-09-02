@@ -178,3 +178,4 @@ xl1=vcat(grid["sigma_elem"],1).*xg1./1e3
 plot(x./1e3,bed(x,params),lw=3,linecolor=:tan4)
 plot!(xl0,hl0,lw=3,linecolor=:blue)
 plot!(xl1,hl1,lw=3,linecolor=:red)
+savefig("plot.png")
